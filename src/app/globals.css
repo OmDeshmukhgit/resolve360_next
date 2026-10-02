@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+:root {
+  --resolve-crimson: #C70031;
+  --resolve-crimson-hover: #A30028;
+  --resolve-blue: #0D78B8;
+  --resolve-blue-hover: #0A5C8E;
+  --resolve-dark: #09131A;
+  --resolve-charcoal: #212121;
+  --resolve-amber: #FFBA00;
+  --resolve-light-bg: #F1F5FE;
+  --resolve-border: #E5E9F0;
+}
+
+@theme {
+  --color-resolve-crimson: #C70031;
+  --color-resolve-blue: #0D78B8;
+  --color-resolve-dark: #09131A;
+  --color-resolve-amber: #FFBA00;
+  --color-resolve-light: #F1F5FE;
+}
+
+html {
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  color: var(--resolve-dark);
+  background-color: #ffffff;
+  overflow-x: hidden;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+/* Authentic Resolve360 Brand Classes */
+.resolve-btn {
+  background: linear-gradient(90deg, #C70031 0%, #0D78B8 100%);
+  border-radius: 18px;
+  color: #ffffff;
+  font-weight: 700;
+  transition: all 0.3s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.resolve-btn:hover {
+  background: linear-gradient(90deg, #0D78B8 0%, #C70031 100%);
+  box-shadow: 0 8px 20px -4px rgba(199, 0, 49, 0.3);
+}
+
+.resolve-btn-blue {
+  background-color: #0D78B8;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 14px;
+  transition: all 0.2s ease;
+}
+
+.resolve-btn-blue:hover {
+  background-color: #0A5C8E;
+}
+
+.resolve-form-shadow {
+  box-shadow: 0 10px 30px -5px rgba(13, 120, 184, 0.12), 0 4px 6px -2px rgba(13, 120, 184, 0.05);
+}
+
+.resolve-card-shadow {
+  box-shadow: 0 4px 16px -2px rgba(9, 19, 26, 0.06);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

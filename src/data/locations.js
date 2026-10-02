@@ -1,0 +1,101 @@
+export const globalCountries = [
+  {
+    country: "India",
+    title: "Online Physiotherapy in India",
+    slug: "india",
+    image: "/images/locations/india.png",
+    flag: "🇮🇳",
+    description: "Serving patients nationwide across all 28 states and 8 union territories. Get live video consultations with leading specialists from Bangalore, Mumbai, and Delhi from your home.",
+    currency: "INR (₹)",
+    startingPrice: "₹499/session",
+    freeConsultation: true,
+    timezone: "IST (UTC+5:30)",
+    supportLanguage: "English, Hindi, Kannada, Tamil, Telugu, Marathi, Bengali & more"
+  },
+  {
+    country: "United States",
+    title: "Online Physical Therapy in USA",
+    slug: "usa",
+    image: "/images/locations/usa.png",
+    flag: "🇺🇸",
+    description: "Affordable, high-touch telehealth physical therapy for residents and NRIs across the United States. No lengthy waits or expensive insurance copays. Aligned to EST, CST, and PST time zones.",
+    currency: "USD ($)",
+    startingPrice: "$25/session",
+    freeConsultation: true,
+    timezone: "EST / CST / MST / PST",
+    supportLanguage: "English, Hindi, Gujarati, Punjabi"
+  },
+  {
+    country: "United Kingdom",
+    title: "Online Physical Therapy in UK",
+    slug: "uk",
+    image: "/images/locations/uk.png",
+    flag: "🇬🇧",
+    description: "Bypass long NHS waiting lists with direct access to senior UK-trained physical therapy specialists. Comprehensive active rehabilitation suited to GMT and BST hours.",
+    currency: "GBP (£)",
+    startingPrice: "£20/session",
+    freeConsultation: true,
+    timezone: "GMT / BST",
+    supportLanguage: "English, Hindi, Urdu, Punjabi"
+  },
+  {
+    country: "Canada",
+    title: "Online Physical Therapy in Canada",
+    slug: "canada",
+    image: "/images/locations/canada.png",
+    flag: "🇨🇦",
+    description: "Virtual physical therapy for patients in Ontario, British Columbia, Alberta, and nationwide. Avoid harsh winter clinic travel with guided home exercise programs.",
+    currency: "CAD ($)",
+    startingPrice: "$30/session",
+    freeConsultation: true,
+    timezone: "EST / MST / PST",
+    supportLanguage: "English, Hindi, Punjabi"
+  },
+  {
+    country: "Australia",
+    title: "Online Physical Therapy in Australia",
+    slug: "australia",
+    image: "/images/locations/australia.png",
+    flag: "🇦🇺",
+    description: "Convenient telehealth physiotherapy for Sydney, Melbourne, Brisbane, and Perth. Tailored session scheduling matching Australian Eastern and Western Standard Time.",
+    currency: "AUD ($)",
+    startingPrice: "$35/session",
+    freeConsultation: true,
+    timezone: "AEST / AWST",
+    supportLanguage: "English, Hindi"
+  },
+  {
+    country: "United Arab Emirates",
+    title: "Online Physiotherapy in UAE",
+    slug: "uae",
+    image: "/images/locations/uae.png",
+    flag: "🇦🇪",
+    description: "Premier virtual physiotherapy care for Dubai, Abu Dhabi, and Sharjah. Direct access to experienced Indian specialists without high local clinic costs.",
+    currency: "AED (د.إ)",
+    startingPrice: "AED 90/session",
+    freeConsultation: true,
+    timezone: "GST (UTC+4)",
+    supportLanguage: "English, Hindi, Arabic, Malayalam, Urdu"
+  }
+];
+
+export const majorCities = [
+  { name: "Bengaluru", state: "Karnataka", isHQ: true },
+  { name: "Mumbai", state: "Maharashtra" },
+  { name: "New Delhi", state: "Delhi-NCR" },
+  { name: "Hyderabad", state: "Telangana" },
+  { name: "Chennai", state: "Tamil Nadu" },
+  { name: "Kolkata", state: "West Bengal" },
+  { name: "Pune", state: "Maharashtra" },
+  { name: "Ahmedabad", state: "Gujarat" },
+  { name: "Noida", state: "Uttar Pradesh" },
+  { name: "Jaipur", state: "Rajasthan" },
+  { name: "Varanasi", state: "Uttar Pradesh" },
+  { name: "Thiruvananthapuram", state: "Kerala" },
+  { name: "Visakhapatnam", state: "Andhra Pradesh" },
+  { name: "Kozhikode", state: "Kerala" },
+  { name: "Jodhpur", state: "Rajasthan" },
+  { name: "Kurnool", state: "Andhra Pradesh" },
+  { name: "Kannur", state: "Kerala" },
+  { name: "Chandigarh", state: "Punjab/Haryana" }
+];
