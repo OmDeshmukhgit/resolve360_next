@@ -3,6 +3,8 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { siteConfig } from "@/data/siteConfig";
 
+const isIndexable = process.env.NEXT_PUBLIC_SITE_INDEXABLE !== "false";
+
 export const metadata = {
   metadataBase: new URL(
     process.env.NEXT_PUBLIC_SITE_URL || 
@@ -60,17 +62,22 @@ export const metadata = {
     creator: "@resolve3601",
     images: ["/images/hero/hero-banner.jpg"]
   },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1
-    }
-  }
+  robots: isIndexable
+    ? {
+        index: true,
+        follow: true,
+        googleBot: {
+          index: true,
+          follow: true,
+          "max-video-preview": -1,
+          "max-image-preview": "large",
+          "max-snippet": -1
+        }
+      }
+    : {
+        index: false,
+        follow: false
+      }
 };
 
 export default function RootLayout({ children }) {
